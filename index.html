@@ -6,69 +6,72 @@
 <title>AI SaaS Dashboard</title>
 <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
+
 <div class="dashboard">
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <h2 class="logo">SaaS</h2>
+<!-- Sidebar -->
+<aside class="sidebar">
+<h2 class="logo">SaaS</h2>
 
-        <nav>
-            <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Analytics</a></li>
-                <li><a href="#">Users</a></li>
-                <li><a href="#">Reports</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </nav>
-    </aside>
+<nav>
+<ul>
+<li><a href="#">Dashboard</a></li>
+<li><a href="#">Analytics</a></li>
+<li><a href="#">Users</a></li>
+<li><a href="#">Reports</a></li>
+<li><a href="#">Settings</a></li>
+</ul>
+</nav>
+</aside>
 
 
-    <!-- Main Content -->
-    <main class="main-content">
+<!-- Main Content -->
+<main class="main-content">
 
-        <!-- Header -->
-        <header class="header">
-            <h1>Analytics Dashboard</h1>
-            <button class="profile-btn">Profile</button>
-        </header>
+<header class="header">
+<h1>Analytics Dashboard</h1>
+<button class="profile-btn">Profile</button>
+</header>
 
-        <!-- Dashboard Cards -->
-        <section class="cards">
 
-            <div class="card">
-                <h3>Total Users</h3>
-                <p>1,245</p>
-            </div>
+<!-- Cards -->
+<section class="cards">
 
-            <div class="card">
-                <h3>Revenue</h3>
-                <p>$8,420</p>
-            </div>
+<div class="card">
+<h3>Total Users</h3>
+<p id="users">0</p>
+</div>
 
-            <div class="card">
-                <h3>Orders</h3>
-                <p>320</p>
-            </div>
+<div class="card">
+<h3>Revenue</h3>
+<p id="revenue">$0</p>
+</div>
 
-            <div class="card">
-                <h3>Growth</h3>
-                <p>+12%</p>
-            </div>
+<div class="card">
+<h3>Orders</h3>
+<p id="orders">0</p>
+</div>
 
-        </section>
+<div class="card">
+<h3>Growth</h3>
+<p id="growth">0%</p>
+</div>
 
-        <!-- Chart Placeholder -->
-        <section class="charts">
-            <div class="chart-box">Chart Area</div>
-            <div class="chart-box">Chart Area</div>
-        </section>
+</section>
 
-    </main>
+
+<section class="charts">
+<div class="chart-box">Chart Area</div>
+<div class="chart-box">Chart Area</div>
+</section>
+
+</main>
 
 </div>
 
-<script src="JS/script.js"></script>
+<script type="module" src="JS/script.js"></script>
+
 </body>
 </html>
